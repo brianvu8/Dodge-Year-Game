@@ -26,10 +26,10 @@
         const ctx = canvas.getContext("2d");
 
         let player = { x: 180, y: 350, width: 40, height: 40, img: new Image() };
-        player.img.src = "https://www.yearupalumni.org/s/1841/images/content_images/Untitled_design_2_637963310342216893.jpg";
+        player.img.src = "images/player.png";  // Local image for the player
         
         let poop = { x: Math.random() * 360, y: 0, width: 30, height: 30, speed: 2, img: new Image() };
-        poop.img.src = "https://yt3.googleusercontent.com/MvZi5-X4UxpBGQpmPo8HAl94Eo7mqMFy59XQd3B5-0nfRfeqfp-_bNk7QcTjSrid8hqYNFt0GA=s900-c-k-c0x00ffffff-no-rj";
+        poop.img.src = "images/poop.png";  // Local image for the poop
         
         let score = 0;
         let gameOver = false;
